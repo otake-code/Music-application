@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         button_play = findViewById(R.id.play_button);
         speedSeekBar = findViewById(R.id.speedSeekBar);
         pitchSeekBar = findViewById(R.id.pitchSeekBar);
-        graphView = findViewById(R.id.graph_view);
+        //graphView = findViewById(R.id.graph_view);
 
         toggleButton1.setTextOn("1");
         toggleButton1.setTextOff("1");
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                     if (mediaPlayer.isPlaying()) {
                         mediaPlayer.pause();
                         button_play.setText("PLAY");
-                        hideGraph(); // 再生を一時停止したら棒グラフも非表示にする
+                        //hideGraph(); // 再生を一時停止したら棒グラフも非表示にする
                     } else {
                         float speed = speedSeekBar.getProgress() / 100f;
                         float pitch = pitchSeekBar.getProgress() / 100f;
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         mediaPlayer.start();
                         button_play.setText("STOP");
-                        showGraph(); // 再生開始時に棒グラフを表示する
+                        //showGraph(); // 再生開始時に棒グラフを表示する
                     }
                 }
             }
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //======================グラフの描画===============
-    private void showGraph() {
+    /*private void showGraph() {
         if (!isGraphShowing) {
             isGraphShowing = true;
             graphView.setVisibility(View.VISIBLE);
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
         // この例では単純に高さを設定していますが、実際の描画は要件に合わせてカスタマイズしてください
         graphView.getLayoutParams().height = graphHeight;
         graphView.requestLayout();
-    }
+    }*/
 //===== 終わり============================---
 
 
