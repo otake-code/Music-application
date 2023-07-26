@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MusicApplication"
         tools:targetApi="33">
         <activity
+            android:name=".TimeSettingActivity"
+            android:exported="false" />
+        <activity
             android:name=".MusicChoice"
             android:exported="false" />
         <activity
