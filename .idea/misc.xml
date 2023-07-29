@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/drawable-v24/gradation2.xml" value="0.333" />
+        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/drawable-v24/gradation_black.xml" value="0.333" />
+        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/drawable-v24/gradation_white.xml" value="0.333" />
+        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/drawable/gradation.xml" value="0.1705" />
         <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/drawable/shape_sample.xml" value="0.1" />
-        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/drawable/timer.xml" value="0.1" />
+        <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/layout/activity_main.xml" value="0.41286307053941906" />
         <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/layout/activity_music_choice.xml" value="0.1" />
         <entry key="..\:/Users/o28t/AndroidStudioProjects/Musicapplication/app/src/main/res/layout/activity_time_setting.xml" value="0.4466666666666667" />
       </map>

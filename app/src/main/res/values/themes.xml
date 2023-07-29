@@ -13,4 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ToggleButtonOnStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToggleButtonOffStyle" parent="TextAppearance.AppCompat">
+        <!-- 通常のテキストスタイル（太字ではない） -->
+    </style>
+
 </resources>
