@@ -128,7 +128,6 @@ public class MainActivity extends AppCompatActivity {
                         if(timer != null){
                             timer.cancel();
                         }
-                        //hideGraph(); // 再生を一時停止したら棒グラフも非表示にする
                     } else {
                         float speed = speedSeekBar.getProgress() / 100f;
                         float pitch = pitchSeekBar.getProgress() / 100f;
@@ -146,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
                         if (timer != null) {
                             timer.cancel();
                         }
-                        //timerDuration = 60000; // タイマーの時間をミリ秒単位で設定（ここでは1分）
                         if (timerDuration > 0) {
                             startTimer(timerDuration);
                         }
@@ -242,3 +240,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+

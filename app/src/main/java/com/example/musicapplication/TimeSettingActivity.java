@@ -38,8 +38,8 @@ public class TimeSettingActivity extends AppCompatActivity {
         secondPicker.setMaxValue(59);
         secondPicker.setMinValue(0);
 
-        // NumberPickerやButtonなどのUI要素の初期化やリスナーの設定などを行う
 
+        //時間を指定してタイマー時間をセットする
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
