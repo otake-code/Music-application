@@ -26,9 +26,11 @@
 ## インストール
 
 1. このリポジトリをクローンします。
-```git clone https://github.com/otake-code/Music-application.git```
-2. Android Studioでプロジェクトを開きます。
-3. ビルドしてデバイスにインストールします。
+```
+git clone https://github.com/otake-code/Music-application.git
+```
+3. Android Studioでプロジェクトを開きます。
+4. ビルドしてデバイスにインストールします。
 
 ## 今後の改善予定
 
