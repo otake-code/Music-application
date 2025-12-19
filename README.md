@@ -1,4 +1,6 @@
 # Music-application
+## アプリ画面
+![アプリのメイン画面](screenshot.png)
 
 ## 目次
 - [プロジェクト概要](#プロジェクト概要)
