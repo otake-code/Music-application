@@ -1,7 +1,8 @@
 # Music-application
 ## アプリ画面
-![アプリのメイン画面](screenshot.png)
-
+<p align="center">
+  <img src="screenshot.png" alt="アプリのメイン画面" width="300">
+</p>
 ## 目次
 - [プロジェクト概要](#プロジェクト概要)
 - [主な機能](#主な機能)
